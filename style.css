@@ -1,0 +1,98 @@
+body {
+    background: #ecc9fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+form {
+
+    width: 770px;
+    border: 3px solid #202020;
+    padding: 28px;
+    background: url("gif3.gif") #fff;
+    border-radius: 25px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+a {
+    color: #000;
+}
+
+
+input {
+    display: block;
+    border: 2px solid #ccc;
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+button {
+    float: right;
+    background: #555;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+}
+
+button:hover {
+    opacity: .7;
+}
+
+.error {
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.success {
+    background: #D4EDDA;
+    color: #40754C;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+    color: #000;
+}
+
+.ca {
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #444;
+}
+
+.ca:hover {
+    text-decoration: underline;
+}
+
+
+table.ortala {
+margin-left:auto; 
+margin-right:auto;
+}
+
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bilgileri Güncelle</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <form action="profil_ayar.php" method="POST">
+          <h2>Bilgilerimi Düzenle</h2>
+            <div class="container col-sm-4" id="profil_ayar">
+
+              <input type="text" name="name" placeholder="Ad - Soyad" value="<?php echo $_SESSION['name']?>" id="input-name" required><br>
+               
+                <input type="text" name="user_name" placeholder="Kullanıcı Adı" value="<?php echo $_SESSION['user_name']?>" id="input-user_name" required><br>              
+              
+                <input type="password" name="password"  placeholder="Şifre" required><br>
+       
+            
+                <input type="text" name="age" placeholder="Yaş" value="<?php echo $_SESSION['age']?>"  id="input-age" required><br>
+
+                <input type="text" name="phone"  placeholder="Telefon" id="input-phone" value="<?php echo $_SESSION['phone']?>" required>
+                <br>
+                <input type="submit" name="guncelle" value="Güncelle" class="btn">
+                
+              </form>
+
+              </div>
+            
+
+            </div>
+        </form>
+
+    </div>
+
+     <br>
+     <div class="dondur_bt" >
+     <form  method="post" action="dondur.php">
+     <input type="submit" name="Submit2" value="Hesabımı Dondur" /></form></div>
+
+     <br>
+     <a href="geridon.php">Geri Dön</a>
+     <br>
+     <a href="logout.php">Çıkış Yap</a>
+
+
+</body>
+</html>
